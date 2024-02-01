@@ -175,7 +175,7 @@ const About = () => {
           <p>Match Move supeviser</p>
           <div class="social-icons">
             <a
-              href="https://www.linkedin.com/in/arpan-jamod-988052229/"
+              href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
               target="_blank"
             >
               <FaLinkedin className="icons" />
