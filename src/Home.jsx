@@ -35,7 +35,7 @@ const Home = () => {
             Services group, is dedicated to delivering unparalleled creative and
             technical solutions to the dynamic film, mobile, and media
             industries. Operating under the banner of A.A.W Studios Pvt Ltd, our
-            headquarters are situated in the vibrant city of BOTAD, GUJRAT,
+            headquarters are situated in the vibrant city of , GUJRAT,
             India. As a premier Visual Effects and Animation Studio, we
             specialize in providing a comprehensive range of services, including
             VFX Prep services such as Matchmove. At Aloukik Artworld, we take
@@ -69,7 +69,7 @@ const Home = () => {
         </h2>
 
         <h2 className="count">
-          {counterOn && <CountUp start={0} end={500} duration={3} delay={0} />}+{" "}
+          {counterOn && <CountUp start={0} end={72} duration={3} delay={0} />}+{" "}
           <br />
           <p>Happy clients</p>
         </h2>
