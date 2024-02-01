@@ -94,7 +94,7 @@ const About = () => {
         <div class="team-member">
           <img src="/images/Paras Jamod.png" alt="Team Member 1" />
           <h2>Dhaval Jamod</h2>
-          <p>CEO</p>
+          <p>CEO & Studio Head</p>
           <div class="social-icons">
             <a
               href="https://www.linkedin.com/in/jamod-dhaval-87b22b19b/"
@@ -120,7 +120,7 @@ const About = () => {
         <div class="team-member">
           <img src="/images/jaypal jamod.png" alt="Team Member 1" />
           <h2>Jaypal Jamod</h2>
-          <p>Match Move superviser</p>
+          <p>Project Manager</p>
           <div class="social-icons">
             <a
               href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
@@ -146,7 +146,7 @@ const About = () => {
         <div class="team-member">
           <img src="/images/sachin makvana.png" alt="Team Member 2" />
           <h2>Sachin Makvana</h2>
-          <p>Match Move Developer</p>
+          <p>Department Head</p>
           <div class="social-icons">
             <a
               href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
@@ -171,8 +171,8 @@ const About = () => {
 
         <div class="team-member">
           <img src="/images/Arpan Jamod.png" alt="Team Member 3" />
-          <h2>Arpan Jamod</h2>
-          <p>IT Head</p>
+          <h2>Rahul Aniyaliya</h2>
+          <p>Match Move supeviser</p>
           <div class="social-icons">
             <a
               href="https://www.linkedin.com/in/arpan-jamod-988052229/"
