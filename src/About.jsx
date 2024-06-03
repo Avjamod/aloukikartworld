@@ -6,6 +6,12 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 
 const About = () => {
+
+  const { updateAboutPage } = useGlobalContext();
+  const [counterOn, setCounterOn] = useState(false);
+
+  useEffect(() => updateHomePage(), []);
+  
   const Wra = styled.section`
     .common-heading {
       margin: 2rem 0;
