@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect , useState} from "react";
 import HeroSection from "./components/HeroSection";
 import { useGlobalContext } from "./context";
 import styled from "styled-components";
