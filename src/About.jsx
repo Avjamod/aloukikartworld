@@ -34,7 +34,7 @@ const About = () => {
     .team-member {
       width: 26rem;
       margin: 2rem;
-      padding: 1.5rem;
+      padding: 2rem;
       background-color: #fff;
       box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
       text-align: center;
