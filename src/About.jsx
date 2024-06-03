@@ -32,7 +32,7 @@ const About = () => {
     }
 
     .team-member {
-      width: 26rem;
+      width: 28rem;
       margin: 2rem;
       padding: 2rem;
       background-color: #fff;
