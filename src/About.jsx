@@ -1,4 +1,4 @@
-import React, { useEffect , useState} from "react";
+import React, { useEffect } from "react";
 import HeroSection from "./components/HeroSection";
 import { useGlobalContext } from "./context";
 import styled from "styled-components";
@@ -6,11 +6,6 @@ import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 
 const About = () => {
-
-  const { updateAboutPage } = useGlobalContext();
-  const [counterOn, setCounterOn] = useState(false);
-
-  useEffect(() => updateHomePage(), []);
   
   const Wra = styled.section`
     .common-heading {
