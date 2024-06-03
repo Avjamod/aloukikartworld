@@ -196,7 +196,7 @@ const About = () => {
         </div>
 
         <div class="team-member">
-          <img src="/images/Arpan Jamod.png" alt="Team Member 3" />
+          <img src="/images/jaypal jamod.png" alt="Team Member 3" />
           <h2>Arpan Jamod</h2>
           <p>IT Head</p>
           <div class="social-icons">
