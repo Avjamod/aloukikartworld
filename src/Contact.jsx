@@ -9,10 +9,7 @@ const Contact = () => {
     .container {
       margin-top: 6rem;
       text-align: center;
-
-    .gm-style .place-card div{
-        font-size: 1.1rem;
-    }
+      
       .contact-form {
         max-width: 50rem;
         margin: auto;
