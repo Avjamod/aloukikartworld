@@ -194,6 +194,32 @@ const About = () => {
             </a>
           </div>
         </div>
+
+        <div class="team-member">
+          <img src="/images/Arpan Jamod.png" alt="Team Member 3" />
+          <h2>Arpan Jamod</h2>
+          <p>IT Head</p>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
+              target="_blank"
+            >
+              <FaLinkedin className="icons" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
+              target="_blank"
+            >
+              <FaInstagram className="icons" />
+            </a>
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRhzqQxpSMGnQNWmvvppWcBtpszWpPHgwsprTzmzJvzqjSBSsRskbGglzLTGKKTBlTTJv"
+              target="_blank"
+            >
+              <BiLogoGmail className="icons" />
+            </a>
+          </div>
+        </div>
       </section>
     </Wra>
   );
