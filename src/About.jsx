@@ -1,12 +1,9 @@
 import React, { useEffect } from "react";
-import HeroSection from "./components/HeroSection";
-import { useGlobalContext } from "./context";
 import styled from "styled-components";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 
 const About = () => {
-  
   const Wra = styled.section`
     .common-heading {
       margin: 2rem 0;
@@ -33,9 +30,9 @@ const About = () => {
     }
 
     .team-member {
-      width: 28rem;
+      width: 26rem;
       margin: 2rem;
-      padding: 2rem;
+      padding: 1.5rem;
       background-color: #fff;
       box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
       text-align: center;
@@ -95,7 +92,7 @@ const About = () => {
         <div class="team-member">
           <img src="/images/Paras Jamod.png" alt="Team Member 1" />
           <h2>Dhaval Jamod</h2>
-          <p>CEO & Studio Head</p>
+          <p>CEO</p>
           <div class="social-icons">
             <a
               href="https://www.linkedin.com/in/jamod-dhaval-87b22b19b/"
@@ -121,7 +118,7 @@ const About = () => {
         <div class="team-member">
           <img src="/images/jaypal jamod.png" alt="Team Member 1" />
           <h2>Jaypal Jamod</h2>
-          <p>Project Manager</p>
+          <p>Match Move superviser</p>
           <div class="social-icons">
             <a
               href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
@@ -147,10 +144,36 @@ const About = () => {
         <div class="team-member">
           <img src="/images/sachin makvana.png" alt="Team Member 2" />
           <h2>Sachin Makvana</h2>
-          <p>Department Head</p>
+          <p>Match Move Developer</p>
           <div class="social-icons">
             <a
               href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
+              target="_blank"
+            >
+              <FaLinkedin className="icons" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
+              target="_blank"
+            >
+              <FaInstagram className="icons" />
+            </a>
+            <a
+              href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRhzqQxpSMGnQNWmvvppWcBtpszWpPHgwsprTzmzJvzqjSBSsRskbGglzLTGKKTBlTTJv"
+              target="_blank"
+            >
+              <BiLogoGmail className="icons" />
+            </a>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <img src="/public/images/jaypal jamod.png" alt="Team Member 3" />
+          <h2>Rahul Aniyaliya</h2>
+          <p>Match Move supeviser</p>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/arpan-jamod-988052229/"
               target="_blank"
             >
               <FaLinkedin className="icons" />
@@ -172,37 +195,11 @@ const About = () => {
 
         <div class="team-member">
           <img src="/images/Arpan Jamod.png" alt="Team Member 3" />
-          <h2>Rahul Aniyaliya</h2>
-          <p>Match Move supeviser</p>
-          <div class="social-icons">
-            <a
-              href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
-              target="_blank"
-            >
-              <FaLinkedin className="icons" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
-              target="_blank"
-            >
-              <FaInstagram className="icons" />
-            </a>
-            <a
-              href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRlRhzqQxpSMGnQNWmvvppWcBtpszWpPHgwsprTzmzJvzqjSBSsRskbGglzLTGKKTBlTTJv"
-              target="_blank"
-            >
-              <BiLogoGmail className="icons" />
-            </a>
-          </div>
-        </div>
-
-        <div class="team-member">
-          <img src="/images/jaypal jamod.png" alt="Team Member 3" />
           <h2>Arpan Jamod</h2>
           <p>IT Head</p>
           <div class="social-icons">
             <a
-              href="https://www.linkedin.com/in/aloukik-artworld-64b720264/"
+              href="https://www.linkedin.com/in/arpan-jamod-988052229/"
               target="_blank"
             >
               <FaLinkedin className="icons" />

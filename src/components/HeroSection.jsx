@@ -59,7 +59,8 @@ const Wrapper = styled.section`
 
   .hero-para {
     margin-bottom: 3.4rem;
-    font-family: "Kalnia";
+    font-family: "Raleway";
+    text-align: justify;
     max-width: 60rem;
     font-weight: 600;
   }

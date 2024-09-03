@@ -135,7 +135,7 @@ const Navbar = () => {
               onClick={() => setOpenMenu(false)}
               to="/About"
             >
-              About_
+              Team_
             </NavLink>
           </li>
           <li>

@@ -22,7 +22,7 @@ const Home = () => {
           <p className="whatisAAW">Phrase</p>
           <img
             className="animated-image"
-            src="/images/logo.png"
+            src="/images/logo.ico.png"
             alt=""
             width="80rem"
           />
@@ -50,9 +50,6 @@ const Home = () => {
             services at competitive prices.
             <br />
             <br />
-            <Button className="btn hireme-btn">
-              <NavLink to="/about"> Learn More.. </NavLink>
-            </Button>
           </p>
         </div>
       </div>
@@ -159,9 +156,9 @@ const Wrap = styled.section`
   #about_para {
     margin: 0 4rem 0 2rem;
     color: black;
-    font-family: "Kalnia";
+    font-family: "Raleway";
     text-align: justify;
-    text-justify: inter-word;
+    font-weight: bold;
   }
 
   @media (max-width: ${({ theme }) => theme.media.mobile}) {
