@@ -16,7 +16,7 @@ const Services = () => {
         <div className="container grid grid-three-column">
           <div className="service">
             <img
-              src="../public/images/Rotoscoping.jpg"
+              src="./images/Rotoscoping.jpg"
               alt="Rotoscoping image"
             />
             <h2>Rotoscoping</h2>
@@ -28,7 +28,7 @@ const Services = () => {
           </div>
           <div className="service">
             <img
-              src="../public/images/Paint-cleanup.jpg"
+              src="./images/Paint-cleanup.jpg"
               alt="object tracking gif"
             />
             <h2>Paint/CleanUp</h2>
@@ -48,12 +48,12 @@ const Services = () => {
             {/* <p>Description of Service 1 goes here...</p> */}
           </div>
           <div className="service">
-            <img src="../public/images/Composition.jpg" alt="Animation gif" />
+            <img src="./images/Composition.jpg" alt="Animation gif" />
             <h2>Composition</h2>
             {/* <p>Description of Service 2 goes here...</p> */}
           </div>
           <div className="service">
-            <img src="../public/images/Rotomation.jpg" alt="Animation gif" />
+            <img src="./images/Rotomation.jpg" alt="Animation gif" />
             <h2>Rotomation</h2>
             {/* <p>Description of Service 2 goes here...</p> */}
           </div>
