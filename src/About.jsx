@@ -22,7 +22,7 @@ const About = () => {
     }
 
     section {
-    display:none;
+    
       max-width: 120rem;
       margin: 1rem auto;
       display: flex;
