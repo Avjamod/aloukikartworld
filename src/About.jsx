@@ -92,7 +92,7 @@ const About = () => {
       <section>
         <div class="team-member">
           <img src="/images/Paras Jamod.png" alt="Team Member 1" />
-          <h2>Dhaval Jamod</h2>
+          <h2>Dhaval </h2>
           <p>CEO</p>
           <div class="social-icons">
             <a
@@ -118,7 +118,7 @@ const About = () => {
 
         <div class="team-member">
           <img src="/images/jaypal jamod.png" alt="Team Member 1" />
-          <h2>Jaypal Jamo</h2>
+          <h2>Jaypal </h2>
           <p>Match Move superviser</p>
           <div class="social-icons">
             <a
@@ -196,7 +196,7 @@ const About = () => {
 
         <div class="team-member">
           <img src="/images/Arpan Jamod.png" alt="Team Member 3" />
-          <h2>Arpan Jamod</h2>
+          <h2>Aayush </h2>
           <p>IT Head</p>
           <div class="social-icons">
             <a
